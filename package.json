@@ -1,0 +1,23 @@
+{
+  "name": "senai_over_flow_api_official",
+  "version": "1.0.0",
+  "description": "Introdução ao Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brayanapeles/senai_overflow_api.git"
+  },
+  "author": "Brayan Nunes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brayanapeles/senai_overflow_api/issues"
+  },
+  "homepage": "https://github.com/Brayanapeles/senai_overflow_api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
