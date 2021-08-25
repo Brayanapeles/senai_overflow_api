@@ -1,6 +1,5 @@
-
 const express = require("express");
-const { Model } = require("sequelize/types");
+
 require("./database");
 const routes = require("./routes")
 
