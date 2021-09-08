@@ -14,6 +14,7 @@ module.exports = {
             }
         });
 
+
         //verificar se a senha esta correta
         if (!user || !bcrypt.compareSync(password, user.password)) {
             return res.status(403).send({ error: 'Usuario e/ou senha inválidos' });
